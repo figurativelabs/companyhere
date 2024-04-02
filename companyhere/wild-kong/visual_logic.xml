@@ -83,7 +83,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="6936.366539290371" scrolly="2680.8036370207356" scale="0.5387568978066389">
+  <tab name="main" type="CommonTab" active="true" scrollx="9786.943830939883" scrolly="4567.735287111718" scale="0.8312701427025592">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id=":?/9S%iA~UqgYE=ZqQ?=">switch</variable>
       <variable id="^nLI1s)]0PJ;J,R{o~hG">kong_tag_30cm_cegid00000</variable>
@@ -2034,7 +2034,7 @@
             <block type="assignMaterial" id="XR?mL1t^P6A@/4oq;p+/">
               <value name="VALUE2">
                 <shadow type="materialList" id="kx^5p=dcl}G+_67*/3]U">
-                  <field name="FIELDNAME">craquele_pink</field>
+                  <field name="FIELDNAME">craquele_red</field>
                 </shadow>
               </value>
               <value name="VALUE1">
