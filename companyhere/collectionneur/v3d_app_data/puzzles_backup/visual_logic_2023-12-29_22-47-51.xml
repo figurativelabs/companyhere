@@ -1,0 +1,49 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="-80.99999999999989" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="R?drub?Dq)Np4cl!m`];" x="190" y="90">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="38.000000000000455" scrolly="16.999999999999886" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id=":_ABy9db3($!?/$h?*o0" x="130" y="30">
+      <value name="IF0">
+        <block type="featureAvailable" id="dMp9[C/r;ddCyylG_2[8">
+          <field name="FEATURE">MOBILE</field>
+        </block>
+      </value>
+      <statement name="DO0">
+        <block type="setScreenScale" id="NAVKapxov]9MTQKOZ9$$">
+          <value name="FACTOR">
+            <shadow type="math_number" id="SD*Dz{U:2Cf{s#Ctc|U+">
+              <field name="NUM">1</field>
+            </shadow>
+            <block type="nativeScreenScale" id="-a?t|t1YM/BJbo{V=PBk"></block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="controls_if" id="uDY(hvfV`(19n$paS=w`">
+          <value name="IF0">
+            <block type="featureAvailable" id=";o5B+Wo^L6]hXSD[/#I(">
+              <field name="FEATURE">MOBILE</field>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="setScreenScale" id="eKL=-Sp5~}73$K;Y8P%3">
+              <value name="FACTOR">
+                <shadow type="math_number" id="jQ*~SxF7mf;U9D@}(_Y#">
+                  <field name="NUM">1.5</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="472.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
